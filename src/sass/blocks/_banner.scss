@@ -1,0 +1,36 @@
+.banner {
+	&__bg {
+		height: 665px;
+		background: url('../../img/banner/banner.jpg');
+	}
+
+	&__wrap {
+		float: left;
+		border-left: 12px solid $main-color;
+		margin-top: 224px;
+	}
+
+	// &__devider {}
+
+	&__title {
+		margin-left: 12px;
+		line-height: 1.2;
+		font-weight: 900;
+		letter-spacing: 0.025em;
+		color: #222222;
+	}
+
+	h1 {
+		font-size: 60px;
+	}
+
+	h3 {
+		font-size: 40px;
+	}
+
+	span {
+		font-size: 40px;
+		color: #f16d7f;
+		font-weight: 900;
+	}
+}

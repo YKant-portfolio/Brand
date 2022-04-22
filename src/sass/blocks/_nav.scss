@@ -1,0 +1,26 @@
+.nav {
+	&__menu {
+		display: flex;
+		justify-content: space-between;
+		width: 680px;
+		margin: 19px auto 22px;
+	}
+
+	&__menu-list {
+		list-style-type: none;
+	}
+
+	&__menu-link {
+		font-size: 14px;
+		line-height: 26px;
+		font-weight: 700;
+		padding: 19px 19px 22px;
+		text-transform: uppercase;
+		color: #222222;
+	}
+
+	&__menu-link:hover {
+		text-decoration: none;
+		color: #585858;
+	}
+}

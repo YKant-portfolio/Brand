@@ -1,0 +1,28 @@
+.btn {
+	background: $main-color;
+	font-size: 15px;
+	line-height: 32px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #ffffff;
+	border: none;
+
+	&:hover {
+		background: rgba($color: $main-color, $alpha: 0.6);
+		transition: 0.5s all;
+	}
+}
+
+.btn-normal {
+	width: 130px;
+	height: 38px;
+}
+
+.btn-normal::after {
+	content: "";
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	background: url('../../img/header/triangle.png') no-repeat;
+	margin-left: 5px;
+}

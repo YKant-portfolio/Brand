@@ -1,0 +1,60 @@
+.feature {
+	&__grid {
+		display: grid;
+		width: 1140px;
+		grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+		gap: 0;
+	}
+
+	&__elem {
+		position: relative;
+		background-color: #222224;
+		display: grid;
+		grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+
+	}
+
+	&__bg {
+		background-color: #f0f0f0;
+		opacity: 0.85;
+	}
+
+	&__elem:first-child {
+		grid-row: 1/4;
+	}
+
+	&__callout {
+		position: absolute;
+		top: 146px;
+		left: 39px;
+		font-size: 53.7px;
+		line-height: 1.2;
+		font-weight: 700;
+		letter-spacing: 0.025em;
+		color: #ffffff;
+
+		h4 {
+			font-size: 32.2px;
+			color: #ffffff;
+			font-weight: 700;
+		}
+
+		span {
+			color: #f16d7f;
+			font-weight: 700;
+		}
+	}
+
+	&__wrap {
+		margin: 48px 0 0 36px;
+	}
+
+	&__icon {
+		width: 100px;
+		height: 48px;
+	}
+
+	&__title {}
+
+	&__descr {}
+}

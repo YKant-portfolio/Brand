@@ -11,21 +11,6 @@
 		align-items: center;
 	}
 
-	&__text {
-		margin: 0 0 0 13px;
-		font-size: 27px;
-		line-height: 32px;
-		font-weight: 300;
-		text-transform: uppercase;
-		letter-spacing: 0.025em;
-		color: #222222;
-
-		span {
-			font-weight: 900;
-			color: #f16d7f;
-		}
-	}
-
 	&__select {
 		margin-left: 37px;
 		width: 87px;

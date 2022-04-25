@@ -23,4 +23,40 @@
 		text-decoration: none;
 		color: #585858;
 	}
+
+	&__box {
+		background-repeat: 5px;
+		background-color: #fff;
+		border: 1px solid #e8e8e8;
+		padding: 25px;
+
+		a {
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: #2b2a2a;
+		}
+	}
+
+	&__box-title {
+		width: 235px;
+		font-size: 14px;
+		line-height: 32px;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.025em;
+		color: #232323;
+		border-bottom: 1px solid #e8e8e8;
+		margin-bottom: 10px;
+	}
+
+	&__box-link {
+		display: block;
+		font-size: 14px;
+		line-height: 28px;
+		font-weight: 600;
+		letter-spacing: 0.025em;
+		color: #646464;
+	}
 }

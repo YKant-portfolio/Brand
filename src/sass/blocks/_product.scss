@@ -27,6 +27,14 @@
 		gap: 39px 31px;
 	}
 
+	&__element {
+		img {
+			max-width: 261px;
+			max-height: 280px;
+			background-size: cover;
+		}
+	}
+
 	&__element-title {
 		margin: 19px 0 17px 15px;
 		font-size: 13px;
@@ -34,6 +42,7 @@
 		font-weight: 600;
 		text-transform: uppercase;
 		color: #222222;
+		padding: 10px;
 	}
 
 	&__element-pecuniary {
@@ -48,6 +57,7 @@
 		font-weight: 700;
 		text-transform: uppercase;
 		color: $main-color;
+		word-wrap: break-word;
 	}
 
 	#one,

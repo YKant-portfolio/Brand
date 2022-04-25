@@ -1,0 +1,125 @@
+.subscribe {
+	&__bg {
+		background: url('../../img/subscribe/bg.png') no-repeat 50%/cover;
+		height: 438px;
+		opacity: 0.9;
+
+	}
+
+	&__feature {
+		background: rgba(255, 255, 255, 0.6);
+		height: 438px;
+	}
+
+	&__wrap {
+		display: flex;
+		height: 438px;
+	}
+
+	&__left {
+		display: flex;
+		margin: 111px 0 0 0px;
+		width: 100%;
+	}
+
+	&__comment {
+		width: 430px;
+		margin-left: 28px;
+	}
+
+	&__text {
+		font-size: 16px;
+		line-height: 26px;
+		font-weight: 600;
+		font-style: italic;
+		letter-spacing: 0.025em;
+		color: #222224;
+	}
+
+	&__name {
+		font-size: 16px;
+		line-height: 26px;
+		font-weight: 700;
+		letter-spacing: 0.025em;
+		color: $main-color;
+		margin-top: 19px;
+	}
+
+	&__organization {
+		font-size: 12px;
+		line-height: 14px;
+		font-weight: 600;
+		color: #222224;
+	}
+
+	&__dot-wrap {
+		display: flex;
+		justify-content: space-between;
+		width: 142px;
+		margin-top: 41px;
+	}
+
+	&__dot {
+		width: 38px;
+		height: 4px;
+		background-color: #d6d6d6;
+		border: none;
+	}
+
+	&__dot-active {
+		width: 38px;
+		height: 4px;
+		background-color: #f16d7f;
+	}
+
+	&__right {
+		display: flex;
+		flex-direction: column;
+		border-left: 1px solid #fff;
+		width: 100%;
+		align-items: center;
+	}
+
+	&__header {
+		text-align: center;
+		margin-top: 148px;
+		font-size: 24px;
+		line-height: 24px;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.025em;
+		color: #222224;
+	}
+
+	&__subheader {
+		text-align: center;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 24px;
+		text-transform: none;
+	}
+
+	&__form {
+		margin: 35px auto 0;
+		position: relative;
+	}
+
+	&__input {
+		width: 334px;
+		height: 46px;
+		background-color: #e1e1e1;
+		border-radius: 23px;
+		padding-left: 28px;
+		border: none
+	}
+
+	&__btn {
+		position: absolute;
+		top: 0;
+		right: 0px;
+		width: 104px;
+		height: 46px;
+		border-radius: 0px 23px 23px 0px;
+		border: none
+	}
+}

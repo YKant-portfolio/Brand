@@ -13,6 +13,8 @@
 @import 'blocks/category';
 @import 'blocks/product';
 @import 'blocks/feature';
+@import 'blocks/subscrible';
+@import 'blocks/footer';
 
 * {
 	font-family: 'Lato', sans-serif;
@@ -37,4 +39,21 @@
 
 p {
 	margin-bottom: 0;
+}
+
+.label {
+	&__text {
+		margin: 0 0 0 13px;
+		font-size: 27px;
+		line-height: 32px;
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 0.025em;
+		color: #222222;
+
+		span {
+			font-weight: 900;
+			color: #f16d7f;
+		}
+	}
 }

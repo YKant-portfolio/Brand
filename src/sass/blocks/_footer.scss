@@ -39,6 +39,11 @@
 		font-weight: 400;
 		letter-spacing: 0.025em;
 		color: #898989;
+
+		a {
+			text-decoration: none;
+			color: #898989;
+		}
 	}
 
 	&__bootom {
@@ -62,24 +67,29 @@
 
 	&__social {
 		a {
+
 			text-decoration: none;
-		}
-	}
-
-	&__social-elem {
-		width: 32px;
-		height: 32px;
-		background-color: #ffffff;
-		padding: 7px;
-		margin-left: 8px;
-
-		img {
-			max-width: 10px;
-			max-height: 10px;
+			margin-left: 5px;
 		}
 	}
 
 	&__social-active {
 		background: $main-color;
 	}
+}
+
+.fa-brands {
+	display: block;
+	width: 32px;
+	height: 32px;
+	border: 1px solid #fff;
+	padding: 7px;
+	font-size: 18px;
+	background-color: #fff;
+	color: #b2b2b2;
+}
+
+.fa-brands:hover {
+	background-color: $main-color;
+	color: #ffffff;
 }

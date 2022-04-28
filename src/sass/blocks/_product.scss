@@ -10,6 +10,15 @@
 		margin-bottom: 16px;
 	}
 
+	&__header-women {
+		font-size: 24px;
+		line-height: 20px;
+		font-weight: 900;
+		text-transform: uppercase;
+		color: #4d4d4d;
+		margin-top: 119px;
+	}
+
 	&__subheader {
 		font-size: 14px;
 		line-height: 14px;
@@ -27,6 +36,10 @@
 		gap: 39px 31px;
 	}
 
+	&__grid-women {
+		grid-template: repeat(1, 1fr) / repeat(4, 1fr);
+	}
+
 	&__element {
 		a {
 			text-decoration: none;
@@ -38,7 +51,6 @@
 		background: #000;
 		width: 261px;
 		height: 280px;
-
 
 		img {
 			width: 100%;
@@ -102,6 +114,15 @@
 		word-wrap: break-word;
 	}
 
+	&__women-title {
+		font-size: 14px;
+		line-height: 1.2;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: #6f6e6e;
+	}
+
+	// скрытые звездочки расположенные в карточках товаров
 	#one,
 	#two,
 	#four,
@@ -124,6 +145,7 @@
 		}
 	}
 }
+
 
 .fa-shopping-cart {
 	font-size: 25px;

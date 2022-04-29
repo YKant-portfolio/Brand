@@ -1,8 +1,5 @@
-
-window.addEventListener('DOMContentLoaded', function () {
-
-	// Slider 
-
+// Slider 
+function slider() {
 	const slides = document.querySelectorAll('.slider__slide'), // каждая карточка слайдера (3шт)
 		prev = document.querySelector('.slider__prev'), // стрелка лево
 		next = document.querySelector('.slider__next'), // стрелка право
@@ -65,43 +62,8 @@ window.addEventListener('DOMContentLoaded', function () {
 			current.textContent = slideIndex;
 		}
 	});
-});
-
-// select
-
-let select = function () {
-	let selectHeader = document.querySelector('.select__header'),
-		selectItem = document.querySelectorAll('.select__item');
-
-	selectHeader.addEventListener('click', selectToggle);
-
-	selectItem.forEach(item => {
-		item.addEventListener('click', selectChoose);
-	});
-
-	function selectToggle() {
-		this.parentElement.classList.toggle('select__active');
-	}
-
-	function selectChoose(e) {
-		let target = e.target;
-		let text = this.innerText,
-			currentText = this.closest('.select').querySelector('.select__current');
-		// создание блока
-		let newSqr = document.createElement('div');
-
-
-		// выбор элемента
-		currentText.innerText = text;
-
-		// класс квадрата
-		let elem = target.firstElementChild;
-		newSqr.classList.add(elem.classList[0])
-
-		currentText.prepend(newSqr);
-		// закрытие option
-		select = this.closest('.select');
-		select.classList.remove('select__active');
-	}
 }
-select();
+
+
+
+export default slider;

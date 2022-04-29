@@ -1,0 +1,94 @@
+.select {
+	position: relative;
+
+	&__active &__body {
+		display: block;
+	}
+
+	&__header {
+		display: flex;
+		border: 1px solid #eaeaea;
+		cursor: pointer;
+		width: 144px;
+		height: 35px;
+	}
+
+	&__current {
+		display: flex;
+		font-size: 13px;
+		line-height: 14px;
+		font-weight: 400;
+		color: #bcbcbc;
+		padding: 12px 9px 13px 14px;
+	}
+
+	&__icon {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		flex-shrink: 0;
+		width: 40px;
+		height: 40px;
+		margin-left: auto;
+	}
+
+	&__body {
+		display: none;
+		position: absolute;
+		left: 0;
+		top: 100%;
+		border: 1px solid #eaeaea;
+		border-top: 0px;
+		width: 144px;
+		z-index: 2;
+		background-color: #ffffff;
+	}
+
+	&__item {
+		width: 120px;
+		display: flex;
+		align-items: center;
+		color: #727272;
+		cursor: pointer;
+		padding: 5px 14px 0 14px;
+
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 400;
+
+	}
+
+	&__item:hover {
+		background-color: rgb(230, 227, 227);
+	}
+
+	&__item-red {
+		width: 12px;
+		height: 12px;
+		background-color: #ef5b70;
+		margin-right: 11px;
+	}
+
+	&__item-green {
+		width: 12px;
+		height: 12px;
+		background-color: green;
+		margin-right: 11px;
+	}
+
+	&__item-blue {
+		width: 12px;
+		height: 12px;
+		background-color: blue;
+		margin-right: 11px;
+	}
+
+}
+
+.fa-angle-down {
+	font-size: 14px;
+	line-height: 23px;
+	font-weight: 400;
+	color: #bcbcbc;
+}

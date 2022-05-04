@@ -13,16 +13,40 @@
 	}
 }
 
-.btn-normal {
+.btn_normal {
 	width: 130px;
 	height: 38px;
 }
 
-.btn-normal::after {
+.btn_normal::after {
 	content: "";
 	width: 8px;
 	height: 8px;
 	display: inline-block;
 	background: url('../img/header/triangle.png') no-repeat;
 	margin-left: 5px;
+}
+
+.btn_white {
+	width: 180px;
+	height: 50px;
+	background-color: #ffffff;
+	border: 1px solid #eaeaea;
+	font-size: 14px;
+	line-height: 1.2;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #4a4a4a;
+	margin-bottom: 79px;
+}
+
+.btn_noborder {
+	width: 180px;
+	height: 50px;
+	background-color: #ffffff;
+	border: 0px solid #eaeaea;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #222222;
 }

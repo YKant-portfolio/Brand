@@ -1,0 +1,149 @@
+.cart {
+	&__title {
+		display: flex;
+		justify-content: space-between;
+		padding: 90px 0 20px;
+		border-bottom: 1px solid #eaeaea;
+	}
+
+	&__title-all {
+		display: flex;
+		justify-content: space-between;
+		width: 55%;
+	}
+
+	&__title-text {
+		font-size: 13px;
+		line-height: 13px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: -0.015em;
+		color: #222222;
+	}
+
+	&__product {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 22px;
+		padding-bottom: 25px;
+		border-bottom: 1px solid #eaeaea;
+
+	}
+
+	&__product-wrap {
+		display: flex;
+	}
+
+	&__product-img {
+		img {
+			width: 100px;
+			height: 115px;
+			background-color: rgba(101, 169, 200, 0.09);
+			object-fit: cover;
+		}
+
+	}
+
+	&__product-description {
+		margin-left: 21px;
+	}
+
+	&__product-title {
+		margin: 13px 0 38px;
+
+		font-size: 13px;
+		line-height: 1.2;
+		font-weight: 600;
+		text-transform: uppercase;
+		color: #222222;
+	}
+
+	&__product-text {
+		font-size: 13px;
+		line-height: 20px;
+		font-weight: 400;
+		color: #575757;
+	}
+
+	&__product-param {
+		font-size: 13px;
+		line-height: 13px;
+		font-weight: 400;
+		color: #575757;
+
+		span {
+			font-weight: 300;
+			color: #6f6e6e;
+			margin-left: 8px;
+		}
+	}
+
+	&__product-all {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 55%;
+
+		font-size: 13px;
+		line-height: 20px;
+		font-weight: 400;
+	}
+
+	&__product-price {
+		width: 75px;
+		text-align: center;
+		color: #656565;
+	}
+
+	&__product-quanity {
+		width: 54px;
+		height: 30px;
+		text-align: center;
+		color: #656565;
+		border: 1px solid #eaeaea;
+	}
+
+	&__product-shipping {
+		width: 60px;
+		text-align: center;
+		color: #656565;
+		text-transform: uppercase;
+	}
+
+	&__product-subtotal {
+		width: 40px;
+		text-align: center;
+		color: #656565;
+	}
+
+	&__product-action {
+		width: 50px;
+		text-align: center;
+		color: #656565;
+	}
+
+	&__btn-wrapp {
+		display: flex;
+		justify-content: space-between;
+		margin: 44px 0 63px;
+
+	}
+
+	&__btn:hover {
+		background: rgba($color: $main-color, $alpha: 0.6);
+		transition: 0.5s all;
+		color: #ffffff;
+	}
+
+	&__btn {
+		width: 235px;
+		height: 50px;
+		background-color: #ffffff;
+		border: 1px solid #eaeaea;
+	}
+
+}
+
+.fa-circle-xmark {
+	color: #c0c0c0;
+}

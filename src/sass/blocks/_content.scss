@@ -325,7 +325,7 @@ input[type="range"]::-moz-range-thumb {
 	background: #ef5b71;
 }
 
-
+//! класс обёртки
 .pagination-wrap {
 	display: flex;
 	justify-content: space-between;
@@ -333,6 +333,7 @@ input[type="range"]::-moz-range-thumb {
 	margin-bottom: 110px;
 }
 
+//! класс кнопок для расположения цифр 
 .pagination-buttons {
 	display: flex;
 	justify-content: space-between;
@@ -345,6 +346,7 @@ input[type="range"]::-moz-range-thumb {
 	padding: 0 15px;
 }
 
+//! стилизация самих цифр
 .page-btn {
 	font-size: 16px;
 	line-height: 26px;
@@ -353,23 +355,30 @@ input[type="range"]::-moz-range-thumb {
 	transition: background 0.3s ease;
 }
 
+
+//! cтилизация кнопки вправо она активна 
 .next-page {
 	color: #ef5b70;
 }
 
+//!  иконка вправо взятая с font awesome только записанна как псевдо 
 .next-page::before {
 	font-family: "Font Awesome 5 Pro";
 	content: "\f054";
 }
 
+//!  иконка влево взятая с font awesome только записанна как псевдо 
 .prev-page::after {
 	font-family: "Font Awesome 5 Pro";
 	content: "\f053";
 }
 
+//! класс активности для выбранной цифры
 .active {
 	color: #ef5b70;
 }
+
+
 
 .feature-box {
 	&__bg {
@@ -393,8 +402,6 @@ input[type="range"]::-moz-range-thumb {
 		justify-content: center;
 	}
 
-	&__right {}
-
 	&__title {
 		font-size: 20px;
 		line-height: 1.2;
@@ -415,5 +422,3 @@ input[type="range"]::-moz-range-thumb {
 		margin-top: 12px;
 	}
 }
-
-.container {}

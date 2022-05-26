@@ -1,0 +1,190 @@
+@media (max-width: 1200px) {
+	.container {
+		max-width: 960px;
+	}
+
+	.category__grid {
+		max-width: 960px;
+	}
+
+	.category__elem {
+		img {
+			object-position: 30% 50%;
+		}
+	}
+
+	.category__elem:first-child>img {
+		object-position: 70% 50%;
+	}
+
+	.product__grid {
+		max-width: 960px;
+		grid-template: repeat(2, 1fr)/repeat(3, 1fr);
+	}
+
+	.feature__grid {
+		max-width: 960px;
+	}
+
+	.feature__bg {
+		width: 100%;
+	}
+
+	.feature__wrap {
+		margin: 18px 10px 0 20px;
+	}
+
+	.feature__descr {
+		width: 100%;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 720px;
+	}
+
+	.header__search-box {
+		width: 217px;
+	}
+
+	.header__basket {
+		margin-right: 6px;
+	}
+
+	.category__grid {
+		max-width: 720px;
+	}
+
+	.product__grid {
+		max-width: 720px;
+		grid-template: repeat(4, 1fr)/repeat(2, 1fr);
+	}
+
+	.product__img {
+		width: 99%;
+
+	}
+
+	.feature__grid {
+		max-width: 720px;
+	}
+
+	.feature__bg {
+		width: 100%;
+	}
+
+	.feature__wrap {
+		margin: 18px 10px 0 20px;
+	}
+
+	.feature__descr {
+		width: 100%;
+	}
+
+	.subscribe__comment {
+		width: 300px;
+
+		.subscribe__input {
+			max-width: 300px;
+		}
+	}
+
+	.footer__title {
+		font-size: 14px;
+	}
+}
+
+
+@media(max-width: 768px) {
+	.container {
+		max-width: 540px;
+	}
+
+	.header__wrap {
+		margin: 30px 0 15px;
+		flex-direction: column;
+	}
+
+	.header__details {
+		margin-left: 10px;
+	}
+
+	.header__search-box {
+		width: 185;
+	}
+
+	.header__basket {
+		margin-right: 3px;
+	}
+
+	.nav__menu {
+		flex-direction: column;
+	}
+
+	.nav__menu {
+		width: 100%;
+	}
+
+	.category__grid {
+		max-width: 100%;
+		display: flex;
+		flex-direction: column;
+		min-height: 1600px;
+	}
+
+	.product__grid {
+		display: flex;
+		flex-direction: column;
+		max-width: 50%;
+	}
+
+	.feature__grid {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.subscribe__wrap {
+		flex-direction: column;
+	}
+
+	.subscribe__left {
+		margin-top: 30px;
+	}
+
+	.subscribe__right {
+		border-left: none;
+	}
+
+	.subscribe__header {
+		margin-top: 50px;
+	}
+
+	.footer__description {
+		width: 300px;
+	}
+
+	.footer__title {
+		font-size: 12px;
+	}
+
+	.footer__text {
+		font-size: 12px;
+	}
+
+	.footer__elem {
+		font-size: 12px;
+		line-height: 30px;
+	}
+}
+
+@media (max-width: 576px) {
+	.container {
+		max-width: 100%;
+	}
+
+	.feature__descr {
+		width: 80%;
+	}
+}

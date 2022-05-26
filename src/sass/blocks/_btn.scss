@@ -1,3 +1,13 @@
+button {
+	background: none;
+	appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	-moz-appearance: none;
+	border: none;
+	cursor: pointer;
+}
+
 .btn {
 	background: $main-color;
 	font-size: 15px;
@@ -49,4 +59,29 @@
 	line-height: 20px;
 	font-weight: 400;
 	color: #222222;
+}
+
+.btn__menu {
+	display: block;
+	width: 66px;
+	background-color: #ffffff;
+	border: 1px solid #ebebeb;
+
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #6f6e6e;
+}
+
+.btn_product {
+	width: 150px;
+	height: 44px;
+	background-color: #ffffff;
+	border: 1px solid #ef5b70;
+	border-radius: 3px;
+
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #ef5b70;
 }

@@ -1,0 +1,148 @@
+.purchase-form {
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 80px;
+	}
+
+	&__adres {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__title {
+		font-size: 16px;
+		line-height: 1.2;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: #222222;
+	}
+
+	&__details {
+		width: 355px;
+		height: 45px;
+		background-color: #ffffff;
+		border: 1px solid #eaeaea;
+		margin-top: 22px;
+	}
+
+	&__summary {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 9px 12px 0 18px;
+		// border: 1px solid #ebebeb;
+
+		font-size: 14px;
+		line-height: 26px;
+		font-weight: 400;
+		color: #6f6e6e;
+	}
+
+	&__summary::after {
+		content: '';
+		display: block;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 6px 5px 0 5px;
+		border-color: #6f6e6e transparent transparent transparent;
+		margin-left: 21px;
+	}
+
+	details[open] {
+		border: 1px solid #ebebeb;
+		z-index: 2;
+	}
+
+	details[open]>&__summary::after {
+		content: "";
+		display: inline-block;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 0 5px 6px 5px;
+		border-color: transparent transparent #ef5b71 transparent;
+		margin-left: 10px;
+	}
+
+	&__input {
+		width: 355px;
+		height: 45px;
+		background-color: #ffffff;
+		border: 1px solid #eaeaea;
+		margin-top: 20px;
+		padding: 0 11px 0 18px;
+	}
+
+	&__btn {
+		width: 100px;
+		height: 35px;
+		background-color: #ffffff;
+		border: 1px solid #eaeaea;
+		margin-top: 23px;
+
+		font-size: 11px;
+		line-height: 1.2;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: #4a4a4a;
+	}
+
+	&__cupon {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__cupon>label {
+		margin: 28px 0 0px;
+	}
+
+	&__total {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		flex-direction: column;
+		width: 360px;
+		height: 214px;
+		background-color: #f5f3f3;
+		padding: 41px;
+	}
+
+	&__sub-total {
+		font-size: 11px;
+		line-height: 1.2;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: #4a4a4a;
+
+	}
+
+	&__grand-total {
+		font-size: 16px;
+		line-height: 1.2;
+		text-transform: uppercase;
+		color: #222222;
+
+		span {
+			color: #f16d7f;
+			font-weight: 700;
+		}
+	}
+}
+
+
+.form-divider {
+	width: 275px;
+	height: 1px;
+	background-color: #e2e2e2;
+}
+
+.btn {
+	&_form {
+		width: 273px;
+		height: 50px;
+		background-color: #f16d7f;
+		text-transform: uppercase;
+	}
+}
